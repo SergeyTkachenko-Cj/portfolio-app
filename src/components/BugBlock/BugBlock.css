@@ -1,0 +1,21 @@
+.block-I {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    font-size: 20vw;
+    background-color: #fff;
+}
+
+.logo {
+    position: absolute;
+    left: 2vw; top: 2vw;
+    width: 10vw;
+}
+
+.bug {
+    position: relative;
+    z-index: 1;
+    width: 50vw;
+}
