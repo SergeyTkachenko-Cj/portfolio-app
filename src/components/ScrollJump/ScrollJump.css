@@ -5,7 +5,7 @@
 
 .freefall {
     width: 100vw;
-    height: 5000vh;
+    height: 100000vh;
     background: #fff;
     -webkit-transform: skewY(-5deg);
     -ms-transform: skewY(-5deg);
@@ -13,4 +13,8 @@
     -webkit-transform-origin: 100% 0;
     -ms-transform-origin: 100% 0;
     transform-origin: 100% 0; 
+    /* background-image: url('../../images/worn_dots.png'); */
+    background-image: url('../../images/night-sky-clipart-8-bit-212705-9501944.jpg');
+    background-size: contain;
+    filter: invert(100%);
 }

@@ -1,0 +1,45 @@
+.projects-block-cover {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: #fff;
+    background-color: #000;
+}
+
+.project-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5vw;
+}
+
+.h-logo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.project-block h1 {
+    font-size: 3vw;
+}
+
+.logo-naladka {
+    width: 4.5vw;
+    height: 4vw;
+    margin-left: 1.5vw;
+    background-image: url('../../images/naladka-logo.png');
+    background-size: cover;
+}
+
+.logo-argus {
+    width: 4vw;
+    height: 4vw;
+    margin-left: 1.5vw;
+    background-image: url('../../images/ffhkigpalgidjmom.png');
+    background-size: cover;
+}
+

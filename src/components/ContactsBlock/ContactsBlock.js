@@ -4,17 +4,16 @@ import MyFace from '../../images/IMG_0322.png';
 
 const ContactsBlock = props => {
     return (
-      <React.Fragment key="1"> 
       <div className="contacts-block">
         <div className="links">
             <a>ГИТХАБ</a>
             <a>ЛИНКДИН</a>
-            <a onClick={() => props.fnctn(props)}>ФЕЙСБУК</a>
+            <a>ФЕЙСБУК</a>
         </div>
         <img src={MyFace} className="photo"></img>
-        <div className="scroll2contacts"></div>
+        <button onClick={() => props.fnctn(props)}>&darr;</button>
+        <div className="scroll-down"></div>
         </div>
-      </React.Fragment>
     );
 }
 

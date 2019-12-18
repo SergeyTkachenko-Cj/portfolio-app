@@ -1,5 +1,8 @@
 .menu-block-cover {
+    position: relative;
+    z-index: 999;
     overflow: hidden;
+    background-color: #fff;
 }
 
 .menu-block {
