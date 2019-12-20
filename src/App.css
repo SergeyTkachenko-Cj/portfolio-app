@@ -16,8 +16,21 @@ html, body {
 
 .fixed {
   position: fixed;
-  width: 100vw;
+  /* width: 100vw; */
   z-index: 1;
   font-family: 'Open Sans Condensed', sans-serif;
   font-size: 6vw;
+  animation: move 1s infinite;
+}
+
+@keyframes move {
+  from {
+    transform: rotateZ(0deg);
+  }
+  50% {
+    transform: rotateZ(180deg);
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
 }
